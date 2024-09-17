@@ -14,6 +14,9 @@ jobs:
         run: |
           repo_url=$(cat repos.txt)
           echo "REPO_URL=$repo_url" >> $GITHUB_ENV
+      - name: Remove tools folder if exists
+        run: |
+          if [ -d "tools" ]; then rm -rf tools; fi
       - name: Clone repo into tools folder
         run: |
           mkdir -p tools
