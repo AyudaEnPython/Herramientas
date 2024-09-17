@@ -1,4 +1,4 @@
-name: Clone Repositories
+name: clone-repositories
 
 on:
   workflow_dispatch:

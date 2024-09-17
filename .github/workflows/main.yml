@@ -1,9 +1,10 @@
-name: Generate page
+name: generate-page
 on:
   push:
     paths:
       - "data/data.csv"
       - "templates/**"
+    workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
