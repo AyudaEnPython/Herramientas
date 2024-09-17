@@ -1,0 +1,50 @@
+<div class="header header-fixed unselectable header-animated bg-yellow-200">
+  <div class="header-brand">
+    <div class="nav-item no-hover">
+      <h6 class="title">AyudaEnPython</h6>
+    </div>
+    <div class="nav-item nav-btn" id="header-btn">
+      <span></span> <span></span> <span></span>
+    </div>
+  </div>
+  <div class="header-nav" id="header-menu" role="button">
+    <div class="nav-right">
+      <div class="nav-item text-center">
+        <a href="https://ayudaenpython.com">
+          <span class="icon">
+            <i class="fas fa-home" aria-hidden="true"></i>
+          </span>
+          <span class="u-none-lg">&nbsp;Sitio web</span>
+        </a>
+      </div>
+      <div class="nav-item text-center">
+        <a href="https://github.com/AyudaEnPython">
+          <span class="icon">
+            <i class="fab fa-facebook" aria-hidden="true"></i>
+          </span>
+          <span class="u-none-lg">&nbsp;Grupo de Facebook</span>
+        </a>
+      </div>
+      <div class="nav-item text-center">
+        <a href="https://github.com/AyudaEnPython">
+          <span class="icon">
+            <i class="fab fa-github" aria-hidden="true"></i>
+          </span>
+          <span class="u-none-lg">&nbsp;Repositorio</span>
+        </a>
+      </div>
+      <div class="nav-item has-sub toggle-hover" id="dropdown">
+        <a class="nav-dropdown-link">Apps</a>
+        <ul class="dropdown-menu dropdown-animated" role="menu">
+          <li role="menuitem">
+            {% for app in apps %}
+            <a href="apps/{{ app.dir }}/index.html" target="_blank"
+              >{{ app.title }}</a
+            >
+            {% endfor %}
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,32 @@
+{% for card in cards %}
+<div class="card h-100p u-flex u-flex-column">
+  <div class="card__header">
+    <p class="font-bold px-3">{{ card.title }}</p>
+  </div>
+  <div class="content u-text-center mb-0">
+    <p>{{ card.content }}</p>
+  </div>
+  <div class="card__action-bar u-center">
+    <a
+      href="#app-modal"
+      class="btn tooltip"
+      data-tooltip="Launch app"
+      data-app="apps/{{ card.dir }}"
+    >
+      <span style="font-size: 21px">
+        <i class="fa-wrapper fa fa-chevron-right"></i>
+      </span>
+    </a>
+    <a
+      href="{{ card.url }}"
+      class="btn tooltip"
+      data-tooltip="Source code"
+      target="_blank"
+    >
+      <span style="font-size: 21px">
+        <i class="fa-wrapper fab fa-github"></i>
+      </span>
+    </a>
+  </div>
+</div>
+{% endfor %}
