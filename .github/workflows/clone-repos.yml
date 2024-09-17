@@ -18,6 +18,9 @@ jobs:
         run: |
           mkdir -p tools
           git clone $REPO_URL tools/
+      - name: Remove .git folder from cloned repository
+        run: |
+          rm -rf tools/.git
       - name: Commit and push changes
         run: |
           git config --global user.name "AyudaEnPython[bot]"
