@@ -1,0 +1,27 @@
+name: Clone Repositories
+
+on:
+  workflow_dispatch:
+
+jobs:
+  clone-repositories:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Read repository URL from file
+        id: read-url
+        run: |
+          repo_url=$(cat repos.txt)
+          echo "::set-output name=repo_url::$repo_url"
+      - name: Clone repo into tools folder
+        run: |
+          mkdir -p tools
+          git clone ${{ steps.read_url.outputs.repo_url }} tools/
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "AyudaEnPython[bot]"
+          git config --global user.email "<>"
+          git add tools/
+          git commit -m "Add cloned repository to tools"
+          git push origin main
