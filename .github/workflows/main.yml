@@ -4,7 +4,7 @@ on:
     paths:
       - "data/data.csv"
       - "templates/**"
-    workflow_dispatch:
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
