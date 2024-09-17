@@ -2,7 +2,7 @@
     {
         "title": "UTC Converter",
         "content": "Conversor de zona horaria",
-        "dir": "converter",
+        "dir": "time_zone_converter",
         "url": "https://github.com/AyudaEnPython/pyscript-apps/tree/main/time_zone_converter"
     }
 ]
