@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html id="page">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcout icon" type="image/x-icon" href="/assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AyudaEnPython | Tools</title>
+    <link href="https://unpkg.com/cirrus-ui" type="text/css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="header header-fixed unselectable header-animated bg-yellow-200">
+  <div class="header-brand">
+    <div class="nav-item no-hover">
+      <h6 class="title">AyudaEnPython</h6>
+    </div>
+    <div class="nav-item nav-btn" id="header-btn">
+      <span></span> <span></span> <span></span>
+    </div>
+  </div>
+  <div class="header-nav" id="header-menu" role="button">
+    <div class="nav-right">
+      <div class="nav-item text-center">
+        <a href="https://ayudaenpython.com">
+          <span class="icon">
+            <i class="fas fa-home" aria-hidden="true"></i>
+          </span>
+          <span class="u-none-lg">&nbsp;Sitio web</span>
+        </a>
+      </div>
+      <div class="nav-item text-center">
+        <a href="https://github.com/AyudaEnPython">
+          <span class="icon">
+            <i class="fab fa-facebook" aria-hidden="true"></i>
+          </span>
+          <span class="u-none-lg">&nbsp;Grupo de Facebook</span>
+        </a>
+      </div>
+      <div class="nav-item text-center">
+        <a href="https://github.com/AyudaEnPython">
+          <span class="icon">
+            <i class="fab fa-github" aria-hidden="true"></i>
+          </span>
+          <span class="u-none-lg">&nbsp;Repositorio</span>
+        </a>
+      </div>
+      <div class="nav-item has-sub toggle-hover" id="dropdown">
+        <a class="nav-dropdown-link">Apps</a>
+        <ul class="dropdown-menu dropdown-animated" role="menu">
+          <li role="menuitem">
+            
+            <a href="apps/converter/index.html" target="_blank"
+              >UTC Converter</a
+            >
+            
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div> <div class="modal modal-large" id="app-modal">
+  <a href="" class="modal-overlay close-btn" aria-label="Close"></a>
+  <div class="modal-content bg-transparent" role="document">
+    <div class="modal-body max-h-90p">
+      <div id="apps"></div>
+    </div>
+    <div class="modal-footer u-text-right">
+      <a href="" class="u-inline-block mr-1">
+        <button class="btn--sm">Close</button>
+      </a>
+      <a href="" class="u-inline-block mr-1"></a>
+        <button class="btn-info btn--sm" id="shareButton">Share</button>
+      </a>
+    </div>
+  </div>
+</div>
+    <section class="section bg-gray-900">
+      <div class="hero fullscreen">
+        <div class="hero-body">
+          <div class="content text-center w-70p-md">
+            <h1 class="text-gray-200">🛠️ Herramientas</h1>
+            <h6 class="font-alt font-light text-gray-500">
+              Comunidad <b class="text-gray-400">AyudaEnPython</b>
+            </h6>
+            <div class="grid grid-cols-4-lg grid-cols-2 u-gap-2" id="cards">
+              
+<div class="card h-100p u-flex u-flex-column">
+  <div class="card__header">
+    <p class="font-bold px-3">UTC Converter</p>
+  </div>
+  <div class="content u-text-center mb-0">
+    <p>Conversor de zona horaria</p>
+  </div>
+  <div class="card__action-bar u-center">
+    <a
+      href="#app-modal"
+      class="btn tooltip"
+      data-tooltip="Launch app"
+      data-app="apps/converter"
+    >
+      <span style="font-size: 21px">
+        <i class="fa-wrapper fa fa-chevron-right"></i>
+      </span>
+    </a>
+    <a
+      href="https://github.com/AyudaEnPython/pyscript-apps/tree/main/time_zone_converter"
+      class="btn tooltip"
+      data-tooltip="Source code"
+      target="_blank"
+    >
+      <span style="font-size: 21px">
+        <i class="fa-wrapper fab fa-github"></i>
+      </span>
+    </a>
+  </div>
+</div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer p-0">
+  <p class="subtitle">AyudaEnPython© 2024.</p>
+</footer>
+    </section>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

@@ -1,14 +1,8 @@
 [
     {
-        "title": "UTC Convert",
-        "content": "Convert UTC time to local time",
+        "title": "UTC Converter",
+        "content": "Conversor de zona horaria",
         "dir": "converter",
-        "url": "https://github.com/AyudaEnPython/Proyectos/tree/main/WEBAPP/time_zone_converter"
-    },
-    {
-        "title": "Roman Numbers",
-        "content": "Decimal to roman numbers",
-        "dir": "roman_numbers",
-        "url": "https://github.com/AyudaEnPython/Proyectos/tree/main/WEBAPP/roman_numbers"
+        "url": "https://github.com/AyudaEnPython/pyscript-apps/tree/main/time_zone_converter"
     }
 ]
