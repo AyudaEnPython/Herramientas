@@ -13,11 +13,11 @@ jobs:
         id: read-url
         run: |
           repo_url=$(cat repos.txt)
-          echo "::set-output name=repo_url::$repo_url"
+          echo "REPO_URL=$repo_url" >> $GITHUB_ENV
       - name: Clone repo into tools folder
         run: |
           mkdir -p tools
-          git clone ${{ steps.read_url.outputs.repo_url }} tools/
+          git clone $REPO_URL tools/
       - name: Commit and push changes
         run: |
           git config --global user.name "AyudaEnPython[bot]"
