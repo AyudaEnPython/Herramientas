@@ -4,6 +4,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/AyudaEnPython/herramientas)
 ![GitHub languages](https://img.shields.io/github/languages/top/AyudaEnPython/herramientas)
 ![Github last-commit](https://img.shields.io/github/last-commit/AyudaEnPython/herramientas)
+[![Ayuda en Python CI](https://github.com/AyudaEnPython/herramientas/actions/workflows/main.yml/badge.svg)](https://github.com/AyudaEnPython/herramientas/actions/workflows/main.yml)
 ![maintenance](https://img.shields.io/maintenance/yes/2024)
 
      _____           _        _____        _____     _   _
