@@ -4,5 +4,11 @@
         "content": "Conversor de zona horaria",
         "dir": "time_zone_converter",
         "url": "https://github.com/AyudaEnPython/pyscript-apps/tree/main/time_zone_converter"
+    },
+    {
+        "title": "Days passed",
+        "content": "D\u00edas transcurridos",
+        "dir": "days_passed",
+        "url": "https://github.com/AyudaEnPython/pyscript-apps/tree/main/days_passed"
     }
 ]
