@@ -10,5 +10,11 @@
         "content": "D\u00edas transcurridos",
         "dir": "days_passed",
         "url": "https://github.com/AyudaEnPython/pyscript-apps/tree/main/days_passed"
+    },
+    {
+        "title": "BMI",
+        "content": "Body Mass Index",
+        "dir": "imc",
+        "url": "https://github.com/AyudaEnPython/pyscript-apps/tree/main/imc"
     }
 ]
