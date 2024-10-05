@@ -16,5 +16,11 @@
         "content": "Body Mass Index",
         "dir": "imc",
         "url": "https://github.com/AyudaEnPython/pyscript-apps/tree/main/imc"
+    },
+    {
+        "title": "PassGenerator",
+        "content": " Password Generator",
+        "dir": " password_generator/https://github.com/AyudaEnPython/tree/main/password_generator",
+        "url": null
     }
 ]
