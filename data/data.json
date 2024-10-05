@@ -19,8 +19,8 @@
     },
     {
         "title": "PassGenerator",
-        "content": " Password Generator",
-        "dir": " password_generator/https://github.com/AyudaEnPython/tree/main/password_generator",
-        "url": null
+        "content": "Password Generator",
+        "dir": "password_generator",
+        "url": "https://github.com/AyudaEnPython/pyscript-apps/tree/main/password_generator"
     }
 ]
