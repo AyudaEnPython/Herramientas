@@ -1,7 +1,7 @@
 from random import choices
 from string import ascii_letters, digits
 
-SYMBOLS = "~`!@#$%^&*()_-+={[}]|\:;<,>.?/\"'"
+SYMBOLS = "~`!@#$%^&*()_-+={[}]|:;<,>.?/\"'"
 
 
 def generate_password(length):
