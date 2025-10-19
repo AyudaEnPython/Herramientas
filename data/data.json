@@ -22,5 +22,11 @@
         "content": "Password Generator",
         "dir": "password_generator",
         "url": "https://github.com/AyudaEnPython/pyscript-apps/tree/main/password_generator"
+    },
+    {
+        "title": "CelsiusToFahrenheit",
+        "content": "C\u00b0 to F\u00b0",
+        "dir": "celsius_fahrenheit",
+        "url": "https://github.com/AyudaEnPython/pyscript-apps/tree/main/celsius_fahrenheit"
     }
 ]
