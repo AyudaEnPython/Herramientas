@@ -10,7 +10,7 @@ def converter(celsius: float) -> float:
         >>> print(converter(36))
         96.8
     """
-    return (celsius * 9 / 5) + 32
+    return (float(celsius) * 9 / 5) + 32
 
 
 if __name__ == "__main__":
