@@ -28,7 +28,7 @@
 
       @when("click", "#clear_btn")
       def clear_all(event):
-          document.getElementById("degree").value = "0"
+          document.getElementById("degree").value = ""
           document.getElementById("result").innerHTML = "</br>"
 
       @when("click", "#convert_btn")
@@ -47,7 +47,7 @@
           <h3 class="subtitle text-gray-600">AyudaEnPython</h3>
           <div class="form-group">
             <label class="form-group-label">Celsius degrees</label>
-            <input type="number" id="degree" class="form-group-input" value="0" placeholder="0"/>
+            <input type="number" id="degree" class="form-group-input"/>
           </div>
           <div class="u-center u-gap-2">
             <button class="btn-light" id="convert_btn">Convert</button>
